@@ -1,4 +1,4 @@
-# OSEP
+# OSCP
 
 MONTH 1 — Foundations & Methodology
 
