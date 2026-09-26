@@ -1,4 +1,100 @@
-<title> Day 1 SUID / SGID </title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
 
-<h1>SUID, SGID, UID/EUID/GID/EGID, saved UID; enumerate with find; study
-command-execution and file-access primitives; practice common SUID-capable binaries in authorized labs.</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .path {
+            background: #eee;
+            padding: 12px;
+            border-radius: 6px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Day 1 - Linux Basics</h1>
+        <p>OSCP Learning Path</p>
+    </div>
+
+    <div class="box">
+        <h2>Importance</h2>
+        <p>
+            Linux basics are important for understanding
+            enumeration and privilege escalation.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Notes</h2>
+        <ul>
+            <li>Learn Linux users and groups</li>
+            <li>Learn file permissions</li>
+            <li>Understand SUID and SGID</li>
+            <li>Learn sudo permissions</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Path</h2>
+
+        <div class="path">
+            Linux → Enumeration → Privilege Escalation
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Points</h2>
+        <ul>
+            <li>whoami</li>
+            <li>id</li>
+            <li>ls -la</li>
+            <li>sudo -l</li>
+            <li>find / -perm -4000 -type f</li>
+        </ul>
+    </div>
+
+</body>
+</html>
